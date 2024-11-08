@@ -190,21 +190,18 @@
 .jw-button-color[aria-expanded=true]:not(.jw-icon-cast),
 .jw-settings-content-item.jw-settings-item-active,
 .jw-settings-menu .jw-icon.jw-button-color[aria-checked="true"] .jw-svg-icon {
-    fill: #3498DB !important;
-    color: #3498DB !important;
+    fill: #2271B3 !important;
+    color: #2271B3!important;
     background-color: transparent !important;
 }
 
 .jw-button-color {
     -webkit-transition: opacity 0.25s,
         -webkit-transform 0.25s cubic-bezier(0.5, 0, 0.1, 1);
-    transition: opacity 0.25s,
-        -webkit-transform 0.25s cubic-bezier(0.5, 0, 0.1, 1);
     -o-transition: opacity 0.25s,
         -o-transform 0.25s cubic-bezier(0.5, 0, 0.1, 1);
     -moz-transition: transform 0.25s cubic-bezier(0.5, 0, 0.1, 1), opacity 0.25s,
         -moz-transform 0.25s cubic-bezier(0.5, 0, 0.1, 1);
-    transition: transform 0.25s cubic-bezier(0.5, 0, 0.1, 1), opacity 0.25s;
     transition: transform 0.25s cubic-bezier(0.5, 0, 0.1, 1), opacity 0.25s,
         -webkit-transform 0.25s cubic-bezier(0.5, 0, 0.1, 1),
         -moz-transform 0.25s cubic-bezier(0.5, 0, 0.1, 1),
